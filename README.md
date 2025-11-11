@@ -16,7 +16,7 @@ O usuário digita a senha no teclado.
 - Se estiver **errada**, o buzzer toca e o LCD mostra “Acesso negado”.  
 
 ##  Link do simulador Wokwi
- [Acesse o projeto no Wokwi](https://wokwi.com/projects/SEU-LINK-AQUI)
+ [Acesse o projeto no Wokwi](https://wokwi.com/projects/443281111710977025)
 
 ##  Integrantes
 Adrielle Vieira  
