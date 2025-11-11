@@ -2,7 +2,7 @@
 
 Projeto acadêmico desenvolvido para simular um sistema de controle de acesso usando Arduino, teclado matricial e display LCD, com o objetivo de aumentar a segurança no estoque da empresa Martinstec.
 
-## 🔧 Componentes utilizados
+##  Componentes utilizados
 - Arduino Uno  
 - Teclado matricial 4x4  
 - Display LCD 16x2 (I2C)  
@@ -10,20 +10,20 @@ Projeto acadêmico desenvolvido para simular um sistema de controle de acesso us
 - Buzzer  
 - LED  
 
-## 👩‍💻 Funcionamento
+## Funcionamento
 O usuário digita a senha no teclado.  
 - Se a senha estiver **correta**, o servo abre a tranca e o LCD mostra “Acesso liberado”.  
 - Se estiver **errada**, o buzzer toca e o LCD mostra “Acesso negado”.  
 
-## 📎 Link do simulador Wokwi
-👉 [Acesse o projeto no Wokwi](https://wokwi.com/projects/SEU-LINK-AQUI)
+##  Link do simulador Wokwi
+ [Acesse o projeto no Wokwi](https://wokwi.com/projects/SEU-LINK-AQUI)
 
-## 👥 Integrantes
+##  Integrantes
 Adrielle Vieira  
 Douglas Henrique  
 Felipe da Silva  
 Hugo Leandro  
 Matheus Alves  
 
-## 📜 Licença
+##  Licença
 Este projeto está licenciado sob a licença MIT — veja o arquivo LICENSE para mais detalhes.
