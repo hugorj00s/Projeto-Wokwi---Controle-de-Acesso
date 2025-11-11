@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "author": "Beco do rato",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 58.2, "left": 354.6, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -99.2,
+      "left": 408.8,
+      "attrs": { "pins": "i2c" }
+    },
+    { "type": "wokwi-membrane-keypad", "id": "keypad1", "top": -69.2, "left": 34.4, "attrs": {} },
+    { "type": "wokwi-relay-module", "id": "relay1", "top": 336.2, "left": 470.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "keypad1:R1", "uno:2", "green", [ "v38.4", "h-57.6" ] ],
+    [ "keypad1:R2", "uno:3", "green", [ "v38.4", "h18.8" ] ],
+    [ "keypad1:R3", "uno:4", "green", [ "v38.4", "h-0.3" ] ],
+    [ "keypad1:R4", "uno:5", "green", [ "v38.4", "h-0.2" ] ],
+    [ "keypad1:C1", "uno:6", "green", [ "v38.4", "h-0.1" ] ],
+    [ "keypad1:C2", "uno:7", "green", [ "v38.4", "h345.6" ] ],
+    [ "uno:5V", "lcd1:VCC", "red", [ "v38.3", "h-169", "v-345.7" ] ],
+    [ "uno:8", "relay1:IN", "blue", [ "v-19.2", "h-201.2", "v326.6" ] ],
+    [ "uno:5V", "relay1:VCC", "red", [ "v38.3", "h-101.8" ] ],
+    [ "uno:GND.3", "relay1:GND", "black", [ "v38.3", "h-5.6" ] ],
+    [ "lcd1:GND", "uno:GND.1", "black", [ "h-19.2", "v124.8", "h134.1" ] ],
+    [ "lcd1:SDA", "uno:A4.2", "green", [ "h-38.4", "v105.8", "h106" ] ],
+    [ "lcd1:SCL", "uno:A5.2", "yellow", [ "h-28.8", "v96.3", "h9.6" ] ],
+    [ "keypad1:C3", "uno:A0", "green", [ "v38.4", "h-0.15" ] ],
+    [ "keypad1:C4", "uno:A1", "green", [ "v38.4", "h326.1" ] ]
+  ],
+  "dependencies": {}
+}
